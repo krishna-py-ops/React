@@ -1,9 +1,83 @@
-#heading{
 
-    color: red;
-    background-color: black;
+.header{
+    display:flex;
+    justify-content: space-between;
+    border: 1px solid red;
 }
-#parent{
-    color: aqua;
-    background-color: brown;
+.logo{
+    width: 200px;
+}
+
+.nav-items > ul{
+    font-size: 22px;
+    display: flex;
+    list-style-type: none;
+}
+.nav-items > ul > li{
+    padding: 10px;
+    margin: 10px;
+}
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    border-radius: 5%;
+}
+.res-card{
+    background-color: cornsilk;
+    padding: 1px;
+    width: 280px;
+    height: auto;
+    margin : 22px;
+    border-radius: 5%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
+#res-card-content{
+    padding : 2px;
+    margin: auto;
+    height: auto;
+    
+}
+.res-card:hover{
+    cursor: pointer;
+    border: 1px solid black;
+
+}
+.res-logo{
+    width: 200px;
+    height: 180px;
+    width: 100%;
+    border-radius: 5%;
+}
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.shimmer-card{
+    width: 230px;
+    height: 400px;
+    color: #D3D3D3D3;
+}
+.Login{
+    padding: 10px;
+    margin: 10px;
+}
+.filter{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    
+}
+#filter-btn{
+    position: absolute;
+    margin:0 10px;
+    padding : 10px;
+    right: -0.1px;
+}
+#searchBtn {
+    padding: 10px;
+}
+.search-box{
+    padding: 10px;
 }
